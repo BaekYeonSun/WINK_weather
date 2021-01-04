@@ -1,0 +1,26 @@
+div {
+    text-align: center;
+}
+input {
+    font-size: large;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    margin: 10px auto;
+}
+input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+button {
+    display: block;
+    margin: 7px auto;
+    padding: 8px;
+    font-size: 1em;
+    background: darkcyan;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
