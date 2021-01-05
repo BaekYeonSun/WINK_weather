@@ -16,7 +16,7 @@ input:focus {
 }
 button {
     display: block;
-    margin: 7px auto;
+    margin: 10px auto;
     padding: 8px;
     font-size: 1em;
     background: darkcyan;

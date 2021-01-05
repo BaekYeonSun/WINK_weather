@@ -4,7 +4,7 @@ import { Data } from "./Data";
 
 export function Weather(props){
     const [state, setState] = useState({
-        temp: 0, desc: '', icon: '', loading: true
+        city: '', temp: 0, desc: '', icon: '', loading: true
     });
 
     async function readWeather(city) {
@@ -21,6 +21,7 @@ export function Weather(props){
                     }
                     response.json().then( function (data) {
                         setState({
+                            city: cityName,
                             temp: data["main"]["temp"],
                             desc: data["weather"][0]["description"],
                             icon: data["weather"][0]["icon"],

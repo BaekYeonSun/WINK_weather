@@ -22,7 +22,7 @@ export function Forecast(props){
     }
 
     return(
-        <div>
+        <div className={"wrap"}>
             <h2>Current Weather Data</h2>
             <input
                 name={"city"}

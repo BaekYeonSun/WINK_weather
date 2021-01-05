@@ -1,4 +1,9 @@
 img {
-    width: 100px;
-    height: 100px;
+    margin-top: 5px;
+    width: 120px;
+    height: 120px;
+}
+p {
+    margin: 10px;
+    font-size: 1.2em;
 }
