@@ -1,8 +1,8 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import { Forecast } from "./Forecast";
 import { Data } from "./Data";
 
-export function Weather(props){
+export function Weather(){
     const [state, setState] = useState({
         city: '', temp: 0, desc: '', icon: '', loading: true
     });
